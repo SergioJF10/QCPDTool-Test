@@ -1,0 +1,5 @@
+ID: 7
+DESCRIPTION: Bit Flip Correction
+QPAINTER JSON FORMAT: [[{"CONTROL":1},{"CONTROL":2},{"ORACLE":1},{"CONTROL":1},{"CONTROL":2},"MEASURE"],["X","_","_","X"],["_","X","_","_","X"]]
+LIST OF MATCHES: [ora]
+LIST OF RECOMMENDATIONS: [init]

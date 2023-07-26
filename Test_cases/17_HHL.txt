@@ -1,0 +1,5 @@
+ID: 17
+DESCRIPTION: Quantum HHL
+QPAINTER JSON FORMAT: [["_","_","_","_","_","R1"],["H","_","_",{"CONTROL":4},{"ORACLE":3},{"CONTROL":2},{"ORACLE":3},{"CONTROL":4},"_","_","H"],["H","_",{"CONTROL":4},"_","ORACLE2",{"CONTROL":3},"ORACLE2","_",{"CONTROL":4},"_","H"],["H",{"CONTROL":4},"_","_","ORACLE2",{"CONTROL":0},"ORACLE2","_","_",{"CONTROL":4},"H"],["_",{"ORACLE":1},{"ORACLE":1},{"ORACLE":1},"_","_","_",{"ORACLE":1},{"ORACLE":1},{"ORACLE":1}],[]]
+LIST OF MATCHES: [ora,ora,ora,ora,ora,ora,ora,ora]
+LIST OF RECOMMENDATIONS: [init,uncom]

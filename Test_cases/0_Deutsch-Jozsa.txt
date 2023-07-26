@@ -1,0 +1,5 @@
+ID: 0
+DESCRIPTION: Deutsch-Jozsa Algorithm
+QPAINTER JSON FORMAT: [["_","H",{"ORACLE":4},"H","MEASURE"],["_","H","ORACLE2","H","MEASURE"],["_","H","ORACLE2","H","MEASURE"],["X","H","ORACLE2"]]
+LIST OF MATCHES: [init,super,ora]
+LIST OF RECOMMENDATIONS: [super]

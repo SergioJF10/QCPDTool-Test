@@ -1,0 +1,5 @@
+ID: 14
+DESCRIPTION: Full Adder
+QPAINTER JSON FORMAT: [["X",{"CONTROL":3},"_","_",{"CONTROL":1},{"CONTROL":2}],["_","_",{"CONTROL":3},"_",{"CONTROL":4},"_","_",{"CONTROL":2}],["_","_","_",{"CONTROL":3},"_",{"CONTROL":4},"_",{"CONTROL":4}],["_","X","X","X","_","_","MEASURE"],["_","_","_","_","X","X","_","X","MEASURE"]]
+LIST OF MATCHES: [init]
+LIST OF RECOMMENDATIONS: []

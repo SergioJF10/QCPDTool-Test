@@ -1,0 +1,5 @@
+ID: 12
+DESCRIPTION: Superdense Coding (Message='10')
+QPAINTER JSON FORMAT: [["_","X","_","_","_","X","_","MEASURE"],["H",{"CONTROL":0},"_","Z","_",{"CONTROL":0},"H","MEASURE"]]
+LIST OF MATCHES: [ent,ent]
+LIST OF RECOMMENDATIONS: [init]

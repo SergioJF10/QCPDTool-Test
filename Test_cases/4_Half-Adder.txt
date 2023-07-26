@@ -1,0 +1,5 @@
+ID: 4
+DESCRIPTION: Half Adder
+QPAINTER JSON FORMAT: [[{"CONTROL":2},"_",{"CONTROL":1}],["_",{"CONTROL":2},{"CONTROL":3}],["X","X","_","MEASURE"],["_","_","X","MEASURE"]]
+LIST OF MATCHES: []
+LIST OF RECOMMENDATIONS: [init]

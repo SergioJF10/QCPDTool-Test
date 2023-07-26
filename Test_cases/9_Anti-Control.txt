@@ -1,0 +1,5 @@
+ID: 9
+DESCRIPTION: Anti Control (2 bits)
+QPAINTER JSON FORMAT: [["X",{"CONTROL":1},"X"],["X",{"CONTROL":2},"X"],["_","X"]]
+LIST OF MATCHES: [init]
+LIST OF RECOMMENDATIONS: [uncom]

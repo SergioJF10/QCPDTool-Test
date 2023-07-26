@@ -1,0 +1,5 @@
+ID: 6
+DESCRIPTION: Shor Algorithm
+QPAINTER JSON FORMAT: [["H","_",{"CONTROL":4},"_","_","_",{"ORACLE":4}],["H","_","_",{"CONTROL":4},"_","_","ORACLE2"],["H","_","_","_",{"CONTROL":4},"_","ORACLE2"],["H","_","_","_","_",{"CONTROL":4},"ORACLE2"],["_","_",{"ORACLE":4},{"ORACLE":4},{"ORACLE":4},{"ORACLE":4}],["_","_","ORACLE2","ORACLE2","ORACLE2","ORACLE2"],["_","_","ORACLE2","ORACLE2","ORACLE2","ORACLE2"],["_","_","ORACLE2","ORACLE2","ORACLE2","ORACLE2"]]
+LIST OF MATCHES: [ora,ora,ora,ora,ora]
+LIST OF RECOMMENDATIONS: [init]

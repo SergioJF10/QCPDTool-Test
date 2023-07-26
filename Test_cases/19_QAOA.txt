@@ -1,0 +1,5 @@
+ID: 19
+DESCRIPTION: QAOA State Preparation Example
+QPAINTER JSON FORMAT: [[{"ORACLE":1},"R1",{"CONTROL":1},"_",{"CONTROL":1},{"CONTROL":3},"_",{"CONTROL":3}],[{"ORACLE":1},"R1","X","RZ","X","_","_","_",{"CONTROL":2},"_",{"CONTROL":2}],[{"ORACLE":1},"R1","_","_","_","_","_","_","X","RZ","X",{"CONTROL":3},"_",{"CONTROL":3}],[{"ORACLE":1},"R1","_","_","_","X","RZ","X","_","_","_","X","RZ","X"]]
+LIST OF MATCHES: [ora,ora,ora,ora]
+LIST OF RECOMMENDATIONS: [init]

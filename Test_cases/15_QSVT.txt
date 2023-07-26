@@ -1,0 +1,5 @@
+ID: 15
+DESCRIPTION: Quantum Single Value Transformation (QSVT)
+QPAINTER JSON FORMAT: [["_","_","RY"],["_",{"ORACLE":3},{"CONTROL":0},{"ORACLE":4}],["_","ORACLE2","_","ORACLE2"],[{"ORACLE":2},"ORACLE2","_","ORACLE2"],["ORACLE2","_","_","ORACLE2"]]
+LIST OF MATCHES: [ora,ora,ora]
+LIST OF RECOMMENDATIONS: [init]

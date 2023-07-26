@@ -1,0 +1,5 @@
+ID: 13
+DESCRIPTION: Bernstein-Vazirani Algorithm
+QPAINTER JSON FORMAT: [["H","_","_",{"CONTROL":3},"_","_","H","MEASURE"],["H","_","_","_","I","_","H","MEASURE"],["H","_","_","_",{"CONTROL":3},"_","H","MEASURE"],["H","Z","_","X","X"]]
+LIST OF MATCHES: [super]
+LIST OF RECOMMENDATIONS: [init,super]

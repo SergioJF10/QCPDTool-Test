@@ -1,0 +1,5 @@
+ID: 2
+DESCRIPTION: Quantum Teleportation
+QPAINTER JSON FORMAT: [["_","_",{"CONTROL":1},"H","MEASURE","_",{"CONTROL":2}],["H",{"CONTROL":2},"X","_","MEASURE",{"CONTROL":2}],["_","X","_","_","_","X","Z"]]
+LIST OF MATCHES: [ent,ent]
+LIST OF RECOMMENDATIONS: [init]

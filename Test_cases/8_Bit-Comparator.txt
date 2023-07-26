@@ -1,0 +1,5 @@
+ID: 8
+DESCRIPTION: 2-bit Quantum String Comparator
+QPAINTER JSON FORMAT: [[{"ORACLE":4}],["ORACLE2"],["ORACLE2","X",{"CONTROL":3},"X","X"],["ORACLE2","X",{"CONTROL":4},"X","_","X"],["_","_","X","_",{"CONTROL":2},{"CONTROL":3}],[{"ORACLE":4}],["ORACLE2"],["ORACLE2","_","_","_",{"CONTROL":4}],["ORACLE2","_","_","_","_",{"CONTROL":4}]]
+LIST OF MATCHES: [ora,ora]
+LIST OF RECOMMENDATIONS: [init]

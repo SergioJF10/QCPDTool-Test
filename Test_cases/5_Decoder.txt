@@ -1,0 +1,5 @@
+ID: 5
+DESCRIPTION: Decoder 2x4
+QPAINTER JSON FORMAT: [["X",{"CONTROL":1},"_",{"CONTROL":1},"X",{"CONTROL":1},"_",{"CONTROL":1}],["X",{"CONTROL":2},"X",{"CONTROL":3},"X",{"CONTROL":4},"X",{"CONTROL":5}],["_","X"],["_","_","_","X"],["_","_","_","_","_","X"],["_","_","_","_","_","_","_","X"]]
+LIST OF MATCHES: [init]
+LIST OF RECOMMENDATIONS: []

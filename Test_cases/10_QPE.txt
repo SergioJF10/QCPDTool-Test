@@ -1,0 +1,5 @@
+ID: 10
+DESCRIPTION: Quantum Phase Estimation (QPE)
+QPAINTER JSON FORMAT: [["X","T","T","T","T","T","T","T"],["H","_","_","_",{"CONTROL":0},{"CONTROL":0},{"CONTROL":0},{"CONTROL":0},{"ORACLE":3},"MEASURE"],["H","_",{"CONTROL":0},{"CONTROL":0},"_","_","_","_","ORACLE2","MEASURE"],["H",{"CONTROL":0},"_","_","_","_","_","_","ORACLE2","MEASURE"]]
+LIST OF MATCHES: [init,ora]
+LIST OF RECOMMENDATIONS: [super]

@@ -1,0 +1,5 @@
+ID: 11
+DESCRIPTION: Quantum Random Access Memory - Address = 2 bits (qRAM)
+QPAINTER JSON FORMAT: [["H","X",{"CONTROL":1},"X","X",{"CONTROL":1},"X","_",{"CONTROL":1},"_","X",{"CONTROL":1},"X",{"CONTROL":1},{"CONTROL":1}],["H","X",{"CONTROL":3},"X","X",{"CONTROL":4},"X","X",{"CONTROL":2},"X","_",{"CONTROL":3},"_",{"CONTROL":2},{"CONTROL":4}],["_","_","_","_","_","_","_","_","X","_","_","_","_","X"],["_","_","X","_","_","_","_","_","_","_","_","X"],["_","_","_","_","_","X","_","_","_","_","_","_","_","_","X"]]
+LIST OF MATCHES: [ent,ent,ent,ent,ent,ent]
+LIST OF RECOMMENDATIONS: [init]

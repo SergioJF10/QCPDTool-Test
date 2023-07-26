@@ -1,0 +1,40 @@
+id;nombre;circuito;patrones;recomendaciones;;
+0;Deutsch-Jozsa Algorithm; [["_","H",{"ORACLE":4},"H","MEASURE"],["_","H","ORACLE2","H","MEASURE"],["_","H","ORACLE2","H","MEASURE"],["X","H","ORACLE2"]];[init,super,ora];[super];;
+
+1;Grover Search; [["H",{"ORACLE":3},"H",{"ORACLE":3},"H","MEASURE"],["H","ORACLE2","H","ORACLE2","H","MEASURE"],["H","ORACLE2","H","ORACLE2","H","MEASURE"]];[super,super,ora,ora];[init];;
+
+2;Quantum Teleportation; [["_","_",{"CONTROL":1},"H","MEASURE","_",{"CONTROL":2}],["H",{"CONTROL":2},"X","_","MEASURE",{"CONTROL":2}],["_","X","_","_","_","X","Z"]];[ent,ent?];[init];;
+
+3;False Coin Detector; [["_","H",{"ORACLE":8},"H","MEASURE"],["_","H","ORACLE2","H","MEASURE"],["_","H","ORACLE2","H","MEASURE"],["_","H","ORACLE2","H","MEASURE"],["_","H","ORACLE2","H","MEASURE"],["_","H","ORACLE2","H","MEASURE"],["_","H","ORACLE2","H","MEASURE"],["X","H","ORACLE2","H","MEASURE"]];[init,super,ora];[];;
+
+4;Half Adder; [[{"CONTROL":2},"_",{"CONTROL":1}],["_",{"CONTROL":2},{"CONTROL":3}],["X","X","_","MEASURE"],["_","_","X","MEASURE"]];[];[init];;
+
+5;Decoder 2x4; [["X",{"CONTROL":1},"_",{"CONTROL":1},"X",{"CONTROL":1},"_",{"CONTROL":1}],["X",{"CONTROL":2},"X",{"CONTROL":3},"X",{"CONTROL":4},"X",{"CONTROL":5}],["_","X"],["_","_","_","X"],["_","_","_","_","_","X"],["_","_","_","_","_","_","_","X"]];[init];[];;
+
+6;Shor Algorithm; [["H","_",{"CONTROL":4},"_","_","_",{"ORACLE":4}],["H","_","_",{"CONTROL":4},"_","_","ORACLE2"],["H","_","_","_",{"CONTROL":4},"_","ORACLE2"],["H","_","_","_","_",{"CONTROL":4},"ORACLE2"],["_","_",{"ORACLE":4},{"ORACLE":4},{"ORACLE":4},{"ORACLE":4}],["_","_","ORACLE2","ORACLE2","ORACLE2","ORACLE2"],["_","_","ORACLE2","ORACLE2","ORACLE2","ORACLE2"],["_","_","ORACLE2","ORACLE2","ORACLE2","ORACLE2"]];[ora,ora,ora,ora,ora];[init];;
+
+7;Bit Flip Correction; [[{"CONTROL":1},{"CONTROL":2},{"ORACLE":1},{"CONTROL":1},{"CONTROL":2},"MEASURE"],["X","_","_","X"],["_","X","_","_","X"]];[ora];[init];;
+
+8;2-bit Quantum String Comparator; [[{"ORACLE":4}],["ORACLE2"],["ORACLE2","X",{"CONTROL":3},"X","X"],["ORACLE2","X",{"CONTROL":4},"X","_","X"],["_","_","X","_",{"CONTROL":2},{"CONTROL":3}],[{"ORACLE":4}],["ORACLE2"],["ORACLE2","_","_","_",{"CONTROL":4}],["ORACLE2","_","_","_","_",{"CONTROL":4}]];[ora,ora];[init];;
+
+9;Anti-Control (2 bits); [["X",{"CONTROL":1},"X"],["X",{"CONTROL":2},"X"],["_","X"]];[init];[uncom];;
+
+10;Quantum Phase Estimation (QPE); [["X","T","T","T","T","T","T","T"],["H","_","_","_",{"CONTROL":0},{"CONTROL":0},{"CONTROL":0},{"CONTROL":0},{"ORACLE":3},"MEASURE"],["H","_",{"CONTROL":0},{"CONTROL":0},"_","_","_","_","ORACLE2","MEASURE"],["H",{"CONTROL":0},"_","_","_","_","_","_","ORACLE2","MEASURE"]];[init,ora];[super];;
+
+11;Quantum Random Access Memory - Address = 2 bits (qRAM); [["H","X",{"CONTROL":1},"X","X",{"CONTROL":1},"X","_",{"CONTROL":1},"_","X",{"CONTROL":1},"X",{"CONTROL":1},{"CONTROL":1}],["H","X",{"CONTROL":3},"X","X",{"CONTROL":4},"X","X",{"CONTROL":2},"X","_",{"CONTROL":3},"_",{"CONTROL":2},{"CONTROL":4}],["_","_","_","_","_","_","_","_","X","_","_","_","_","X"],["_","_","X","_","_","_","_","_","_","_","_","X"],["_","_","_","_","_","X","_","_","_","_","_","_","_","_","X"]];[ent,ent,ent,ent,ent,ent];[init];;
+
+12;Superdense Coding (Message='10'); [["_","X","_","_","_","X","_","MEASURE"],["H",{"CONTROL":0},"_","Z","_",{"CONTROL":0},"H","MEASURE"]];[ent,ent];[init];;
+
+13;Bernstein-Vazirani Algorithm; [["H","_","_",{"CONTROL":3},"_","_","H","MEASURE"],["H","_","_","_","I","_","H","MEASURE"],["H","_","_","_",{"CONTROL":3},"_","H","MEASURE"],["H","Z","_","X","X"]];[super];[init,super];;
+
+14;Full Adder; [["X",{"CONTROL":3},"_","_",{"CONTROL":1},{"CONTROL":2}],["_","_",{"CONTROL":3},"_",{"CONTROL":4},"_","_",{"CONTROL":2}],["_","_","_",{"CONTROL":3},"_",{"CONTROL":4},"_",{"CONTROL":4}],["_","X","X","X","_","_","MEASURE"],["_","_","_","_","X","X","_","X","MEASURE"]];[init];[];;
+
+15;Quantum Single Value Transformation (QSVT); [["_","_","RY"],["_",{"ORACLE":3},{"CONTROL":0},{"ORACLE":4}],["_","ORACLE2","_","ORACLE2"],[{"ORACLE":2},"ORACLE2","_","ORACLE2"],["ORACLE2","_","_","ORACLE2"]];[ora,ora,ora];[init];;
+
+16;Quantum Principal Component Analysis (QPCA); [[{"CONTROL":1},{"CONTROL":1},"_","MEASURE"],[{"ORACLE":5},{"ORACLE":5},"_","MEASURE"],["ORACLE2","ORACLE2"],["ORACLE2","ORACLE2"],["ORACLE2","ORACLE2","_","_",{"ORACLE":2}],["ORACLE2","ORACLE2","_","_","ORACLE2"]];[ora,ora,ora];[init];;
+
+17;Quantum HHL; [["_","_","_","_","_","R1"],["H","_","_",{"CONTROL":4},{"ORACLE":3},{"CONTROL":2},{"ORACLE":3},{"CONTROL":4},"_","_","H"],["H","_",{"CONTROL":4},"_","ORACLE2",{"CONTROL":3},"ORACLE2","_",{"CONTROL":4},"_","H"],["H",{"CONTROL":4},"_","_","ORACLE2",{"CONTROL":0},"ORACLE2","_","_",{"CONTROL":4},"H"],["_",{"ORACLE":1},{"ORACLE":1},{"ORACLE":1},"_","_","_",{"ORACLE":1},{"ORACLE":1},{"ORACLE":1}],[]];[ora,ora,ora,ora,ora,ora,ora,ora];[init,uncom?];;
+
+18;Simon's Algorithm; [["H",{"ORACLE":4},"_","H","MEASURE"],["H","ORACLE2","_","H","MEASURE"],["_","ORACLE2","MEASURE"],["_","ORACLE2","MEASURE"]];[ora];[init];;
+
+19;QAOA State Preparation Example; [[{"ORACLE":1},"R1",{"CONTROL":1},"_",{"CONTROL":1},{"CONTROL":3},"_",{"CONTROL":3}],[{"ORACLE":1},"R1","X","RZ","X","_","_","_",{"CONTROL":2},"_",{"CONTROL":2}],[{"ORACLE":1},"R1","_","_","_","_","_","_","X","RZ","X",{"CONTROL":3},"_",{"CONTROL":3}],[{"ORACLE":1},"R1","_","_","_","X","RZ","X","_","_","_","X","RZ","X"]];[ora,ora,ora,ora];[init];;
